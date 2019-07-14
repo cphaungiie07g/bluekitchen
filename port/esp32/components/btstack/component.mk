@@ -18,9 +18,6 @@ COMPONENT_ADD_INCLUDEDIRS := \
 	3rd-party/md5 \
 	3rd-party/yxml \
 	src/classic \
-	src/ble/gatt-service \
-	src/ble \
-	src/classic \
 	src \
 	platform/embedded \
 	platform/freertos \
@@ -35,6 +32,7 @@ COMPONENT_SRCDIRS := \
 	src/ble/gatt-service \
 	src/ble \
 	src/classic \
+	src/mesh \
 	src/ \
 	platform/freertos \
 	. \
