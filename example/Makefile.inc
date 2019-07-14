@@ -11,7 +11,6 @@ VPATH += ${BTSTACK_ROOT}/3rd-party/micro-ecc
 VPATH += ${BTSTACK_ROOT}/3rd-party/bluedroid/decoder/srce
 VPATH += ${BTSTACK_ROOT}/3rd-party/bluedroid/encoder//srce
 VPATH += ${BTSTACK_ROOT}/3rd-party/yxml
-VPATH += ${BTSTACK_ROOT}/test/mesh
 
 CFLAGS += -I.
 CFLAGS += -I${BTSTACK_ROOT}/src/ble
@@ -24,7 +23,6 @@ CFLAGS += -I${BTSTACK_ROOT}/3rd-party/micro-ecc
 CFLAGS += -I${BTSTACK_ROOT}/3rd-party/bluedroid/decoder/include
 CFLAGS += -I${BTSTACK_ROOT}/3rd-party/bluedroid/encoder/include
 CFLAGS += -I${BTSTACK_ROOT}/3rd-party/yxml
-CFLAGS += -I${BTSTACK_ROOT}/test/mesh
 
 # for CVSD/SBC PLC
 LDFLAGS += -lm
